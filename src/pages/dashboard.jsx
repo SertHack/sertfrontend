@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import Nav from "./components/nav.jsx"
+import navbar from "../components/navbar.jsx"
 
 function Dashboard() {
 
