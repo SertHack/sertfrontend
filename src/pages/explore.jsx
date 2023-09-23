@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom/client';
 
 import Navbar from "../components/navbar.jsx"
 
-function Dashboard() {
+function Explore() {
     return (
     <div id="dashboard">
         <Navbar></Navbar>
-        <p>Dashboard Page</p>
+        <p>Explore Page</p>
     </div>
     );
 }
 
-export default Dashboard;
+export default Explore;
