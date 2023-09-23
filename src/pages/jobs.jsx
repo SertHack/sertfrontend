@@ -5,7 +5,7 @@ import Navbar from "../components/navbar";
 
 function Jobs() {
     return (
-    <div id="Jobs">
+    <div id="jobs">
         <Navbar></Navbar>
         <p>Jobs Page</p>
     </div>

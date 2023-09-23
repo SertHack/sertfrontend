@@ -5,7 +5,7 @@ import Navbar from "../components/navbar";
 
 function Network() {
     return (
-    <div id="Network">
+    <div id="network">
         <Navbar></Navbar>
         <p>Network Page</p>
     </div>

@@ -5,7 +5,7 @@ import Navbar from "../components/navbar.jsx"
 
 function Explore() {
     return (
-    <div id="dashboard">
+    <div id="explore">
         <Navbar></Navbar>
         <p>Explore Page</p>
     </div>
