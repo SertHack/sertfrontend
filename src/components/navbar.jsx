@@ -7,8 +7,10 @@ import css from '../css/navbar.css'
 function Nav() {
     return (
         <div class="navbar " id="navbar">
-            <div class ="navbar-brand" >
-                <img class="navbar-item" src={logo} width="100" height="100"></img>
+            <div class ="navbar-brand">
+                <Link to = "/">
+                    <img class="navbar-item " src={logo} width="100" height="100" ></img>
+                </Link>
             </div>
             <Link to="/explore">Explore</Link>
             <Link to="/network">Network</Link>
