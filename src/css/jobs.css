@@ -36,7 +36,7 @@
     transform: scale(1.1);
 }
 
-.jobs-list-container .open-positions {
+.jobs-list-container .company-name {
     position: absolute;
     top: 40px;
     right: 24px;
