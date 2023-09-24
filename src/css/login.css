@@ -1,0 +1,25 @@
+.login-box {
+    margin: auto;
+    width: 35%;
+}
+
+#login {
+    height: 100vh;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.login-box > * {
+    text-align: center;
+    padding: 10px;
+}
+
+#login-form > * {
+    text-align: left;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.slabel {
+    display: block;
+}
