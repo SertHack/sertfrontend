@@ -62,7 +62,7 @@ function Explore() {
         </div>
 
         <div id="refresh">
-            <a href="." class="refresh-btn" onclick="window.location.reload()">Load more posts</a>
+            <a href="" class="refresh-btn" onclick="window.location.reload()">Load more posts</a>
         </div>
 
     </div>

@@ -23,6 +23,7 @@ function Signup() {
         console.log(password)
 
         let cs = await fetch(`/api/signup?username=${username}&password=${password}&year=${gradYear}&major=${selected}`)
+        console.log(cs);
 
 
         if(cs.status === 500) {
