@@ -1,5 +1,6 @@
 import React from 'react';
-import Navbar from '../components/navbar'
+import Navbar from '../components/navbar';
+import Post from '../components/post';
 
 const months = [
   'January', 'February', 'March', 'April', 'May', 'June', 'July',
@@ -44,6 +45,13 @@ const Profile = () => {
     joinDate: 1695490761
   };
 
+  const posts = [
+  { name: 'Jai Patel', caption: "Exciting news! I just landed an awesome internship opportunity with a leading tech company. Hard work pays off — don't be afraid to chase your dreams!", time: new Date(1695490761) },
+    { name: 'Jai Patel', caption: "Wanted to share some good news — my classes are going really well this semester. It's all about staying organized and staying motivated!", time: new Date(1695460729) },
+    { name: 'Jai Patel', caption: "Just had a delicious and healthy lunch today. It's amazing how a good meal can boost your energy and mood. Take care of yourself, folks!", time: new Date(1695180764) },
+    { name: 'Jai Patel', caption: "I'm thrilled to announce that I've been selected to lead a student project at my university. It's a great chance to gain leadership skills and collaborate with talented peers.", time: new Date(1695190763) },
+    { name: 'Jai Patel', caption: "Today's workout was epic! Nothing like some exercise to clear your mind and stay fit. Remember, taking care of your health is an investment in your future. 💪", time: new Date(1695490367) },
+  ]
   const joinDate = new Date(1000 * user.joinDate);
 
   return (
@@ -69,7 +77,12 @@ const Profile = () => {
           {/* Name and Posts */}
           <div className='column is-one-half' style={{ padding: 0 }}>
             <h1 className="title" style={{ color: 'white', marginTop: '1em', textAlign: 'center', fontSize: '2.5em' }}>Hi👋, I'm {user.name}</h1>   
-            <div style={{ backgroundColor: 'white', width: '100%', height: '85  %' }}>
+            <div style={{ width: '100%', height: '85  %' }}>
+              <Post data={posts[0]}/>
+              <Post data={posts[1]}/>
+              <Post data={posts[2]}/>
+              <Post data={posts[3]}/>
+              <Post data={posts[4]}/>
             </div>
           </div>
           {/* Friends Stuff */}
