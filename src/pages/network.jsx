@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
+import Footer from "../components/footer"
 import Navbar from "../components/navbar";
 
 function Network() {
@@ -8,6 +8,7 @@ function Network() {
     <div id="network">
         <Navbar></Navbar>
         <p>Network Page</p>
+        <Footer></Footer>
     </div>
     );
 }

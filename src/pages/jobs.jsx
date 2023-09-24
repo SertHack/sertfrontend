@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
+import Footer from "../components/footer"
 import Navbar from "../components/navbar";
 import '../css/jobs.css'
 import logo from '../Images/SertLogoReduced.svg'
@@ -85,6 +85,7 @@ function Jobs() {
 
         </div>
     </div>
+    <Footer></Footer>
     </body>
     );
 }
