@@ -45,7 +45,6 @@ indeed.query(queryOptions)
 function Job(queryOptions) {
     return (
         <body>
-            
         </body>
     );
 }
