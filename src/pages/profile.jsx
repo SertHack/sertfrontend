@@ -64,12 +64,6 @@ const Profile = () => {
                   <p style={{ color: 'white', marginTop: '-.8em', maxWidth: '90%' }}>{user.bio}</p>
                   <br/>
                   <p style={{ fontSize: '1.1em', marginTop: '1em'}}>Joined {months[joinDate.getMonth()]} {joinDate.getFullYear()}</p>
-                  {/* <div style={{ marginTop: '1.2em' }}>
-                    <h3 className="subtitle" style={{color: 'white', float: 'left', fontSize: '' }}>
-                      Friends: {user.friends.length}
-                    </h3>
-                    <input type="text" style={{ marginLeft:  '3em' }} placeholder='Search friends...' />
-                  </div> */}
               </div>
           </div>
           {/* Name and Posts */}
@@ -86,7 +80,7 @@ const Profile = () => {
               </h3>
               <div>
                 <input type="text" style={{ marginLeft: '1.8em', fontSize: '1em', marginTop: '.2em' }} placeholder='Search friends...' />
-                <button style={{ background: '#121212', border: 'none', fontSize: '1.3em', marginLeft: '-1.5em' , marginTop: '.5em'}}>🔍</button>
+                {/* <button style={{ background: '#121212', border: 'none', fontSize: '1.3em', marginLeft: '-1.5em' , marginTop: '.5em'}}>🔍</button> */}
               </div>
             </div>
             <div className='friends' style={{ marginTop: '2em' }}>
