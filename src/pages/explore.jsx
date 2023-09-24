@@ -6,6 +6,7 @@ import Footer from "../components/footer"
 import '../css/explore.css'
 
 import usericon from '../Images/Profile.jpeg'
+import postimage from '../Images/latao.jpeg'
 
 function Explore() {
     return (
@@ -24,7 +25,7 @@ function Explore() {
             <div class="post">
                 <img src={usericon} alt="User Profile Picture" />
                 <h3 class="User has-text-link">Jai Patel</h3>
-                <img src={usericon} alt="LaTao Hot Pot" />
+                <img src={postimage} alt="LaTao Hot Pot" />
                 <div class="caption has-text-white">
                     I just checked out this amazing restaurant called LaTao Hot Pot
                     in College Park, MD, right outside the University of Maryland

@@ -21,6 +21,10 @@
     width: 60px;
 }
 
+.explore-list-container .explore img {
+    width: 60px;
+}
+
 .explore-list-container .post {
     box-shadow: 0 4px 24px -8px rgba(255, 255, 255, 0.2);
     padding: 24px;
