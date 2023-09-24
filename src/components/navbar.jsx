@@ -6,10 +6,10 @@ import css from '../css/navbar.css'
 
 function Nav() {
     return (
-        <div class="navbar " id="navbar">
+        <div class="navbar" id="navbar">
             <div class ="navbar-brand">
                 <Link to = "/">
-                    <img class="navbar-item " src={logo} width="100" height="100" ></img>
+                    <img class="navbar-item mb-1" src={logo} width="100" height="100" ></img>
                 </Link>
 
             </div>

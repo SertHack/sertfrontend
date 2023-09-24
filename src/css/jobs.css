@@ -19,6 +19,7 @@
 
 .jobs-list-container .jobs img {
     width: 60px;
+    height: 60px;
 }
 
 .jobs-list-container .job {
@@ -36,7 +37,7 @@
     transform: scale(1.1);
 }
 
-.jobs-list-container .open-positions {
+.jobs-list-container .company-name {
     position: absolute;
     top: 40px;
     right: 24px;
