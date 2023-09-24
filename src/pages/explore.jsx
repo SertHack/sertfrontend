@@ -1,12 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-
 import Navbar from "../components/navbar.jsx"
 import Footer from "../components/footer"
 import '../css/explore.css'
-
-import usericon from '../Images/Profile.jpeg'
-import postimage from '../Images/latao.jpeg'
 
 function Explore() {
     return (
@@ -15,9 +10,7 @@ function Explore() {
         <Navbar></Navbar>
     </div>
     <div class="explore-list-container">
-
         <h2>Recent Posts from your SertWork</h2>
-
         <div class="explore">
 
             <div class="post">
@@ -69,12 +62,12 @@ function Explore() {
         </div>
 
         <div id="refresh">
-            <a href="window.location.reload()"class="refresh-btn" onclick="window.location.reload()">Load more posts</a>
+            <a href="." class="refresh-btn" onclick="window.location.reload()">Load more posts</a>
         </div>
 
     </div>
     <div class="extension">
-        <p>\n
+        <p>
 
 
         </p>
