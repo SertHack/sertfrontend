@@ -13,7 +13,6 @@ function Jobs() {
     <body>
         <div id="jobs">
         <Navbar></Navbar>
-        <p>Jobs Page</p>
     </div>
     <div class="jobs-list-container">
 

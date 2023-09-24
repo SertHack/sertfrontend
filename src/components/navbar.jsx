@@ -14,7 +14,7 @@ function Nav() {
 
             </div>
             <Link to="/explore">Explore</Link>
-            <Link to="/network">Network</Link>
+            <Link to="/network">Sertwork</Link>
             <Link to="/jobs">Jobs</Link>
             <Link to="/profile">Profile</Link>
         </div>

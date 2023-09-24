@@ -10,19 +10,27 @@ function Dashboard() {
     return (
     <div id="dashboard">
         <Navbar></Navbar>
-        <h1 class = "title title-is-1 has-text-white ml-6 pl-2">Dashboard</h1>
-        <div class ="tile is-parent">
-            <div class="tile is-vertical ml-6 pl-6 pt-6 has-background-black is-2">
-                <h1 class = "title title-is-1 has-text-white">Friends</h1>
-                <img src = {profile} width="100" height="10"></img>
-                <img src = {profile} width="100" height="10" class = "pt-3 pb-5"></img>
-            </div>
-            <div class="tile ml-6 mt-3 pl-5 has-background-black is-5">
-                <h1 class = "title title-is-1 ml-2 has-text-white">Network</h1>
-                <img src = {network} width="900" height="10" class = "pt-3 pb-5"></img>
-            </div>
+        <h1 className="title title-is-1 has-text-white ml-6 pl-2">Dashboard</h1>
+            <div className="tile is-ancestor is-12">
+                <div className="tile is-4 is-parent is-vertical">
+                    <div className="tile is-child">
+                        <h1 className="title title-is-1 has-text-white"><a href='http://localhost:3000/profile'>Friends</a></h1>
+                        <p>Friend 1</p>
+                        <p>Friend 2</p>
+                    </div>
 
-        </div>
+                    <div className="tile is-child">
+                        <h1 className="title title-is-1 has-text-white" id="sert"><a href='http://localhost:3000/network'>Network</a></h1>
+                        <img class="navbar-item " src={network} width="400" height="100" ></img>
+                    </div>
+
+                </div>
+                <div className="tile is-parent is-8">
+                    <div className="tile is-child">
+                        <h1 className="title title-is-1 has-text-white" id="jobs" href='jobs.jsx'><a href='http://localhost:3000/jobs'>New Jobs</a></h1>
+                    </div>
+                </div>
+            </div>
 
         <Footer></Footer>
     </div>
