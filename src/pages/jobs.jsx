@@ -5,6 +5,9 @@ import Navbar from "../components/navbar";
 import '../css/jobs.css'
 import logo from '../Images/SertLogoReduced.svg'
 
+//var elements = document.querySelectorAll(".job");
+//const count = elements.length;
+
 function Jobs() {
     return (
     <body>
@@ -13,7 +16,8 @@ function Jobs() {
         <p>Jobs Page</p>
     </div>
     <div class="jobs-list-container">
-        <h2>5 Jobs</h2>
+
+        <h2>6 Jobs</h2>
 
         <div class="jobs">
 
@@ -84,6 +88,17 @@ function Jobs() {
             </div>
 
         </div>
+
+        <div id="refresh">
+            <a href="#" class="refresh-btn">Load more jobs</a>
+        </div>
+
+    </div>
+    <div class="extension">
+        <p>\n
+
+
+        </p>
     </div>
     <Footer></Footer>
     </body>
