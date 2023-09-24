@@ -6,8 +6,8 @@ import css from '../css/navbar.css'
 
 function Nav() {
     return (
-        <div class="navbar has-text-warning" id="navbar">
-            <div class ="navbar-brand" href = "/dashboard">
+        <div class="navbar " id="navbar">
+            <div class ="navbar-brand" >
                 <img class="navbar-item" src={logo} width="100" height="100"></img>
             </div>
             <Link to="/explore">Explore</Link>
