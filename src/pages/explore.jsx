@@ -23,7 +23,6 @@ function Explore() {
         <div class="explore">
 
             <div class="post">
-                <img src={usericon} alt="User Profile Picture" />
                 <h3 class="User has-text-link">Jai Patel</h3>
                 <img src={postimage} alt="LaTao Hot Pot" />
                 <div class="caption has-text-white">
