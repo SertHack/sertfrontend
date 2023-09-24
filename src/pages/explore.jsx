@@ -23,8 +23,8 @@ function Explore() {
         <div class="explore">
 
             <div class="post">
-                <h3 class="User has-text-link">Jai Patel</h3>
-                <img src={postimage} alt="LaTao Hot Pot" />
+                <a href="../pages/profile.jsx"><h3 class="User has-text-link">Jai Patel</h3></a>
+                {/*<img src={postimage} alt="LaTao Hot Pot" />*/}
                 <div class="caption has-text-white">
                     I just checked out this amazing restaurant called LaTao Hot Pot
                     in College Park, MD, right outside the University of Maryland

@@ -18,11 +18,9 @@
 }
 
 .explore-list-container .explore img {
-    width: 60px;
-}
-
-.explore-list-container .explore img {
-    width: 60px;
+    text-align: center;
+    width: 400px;
+    height: 320px;
 }
 
 .explore-list-container .post {
