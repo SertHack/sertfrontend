@@ -8,12 +8,13 @@
     font-size: 30px;
     border-left: 4px solid#3273dc;
     padding-left: 20px;
+    padding-bottom: 10px;
 }
 
 .jobs-list-container .jobs {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 24px;
+    gap: 32px;
 }
 
 .jobs-list-container .jobs img {
@@ -32,7 +33,7 @@
 }
 
 .jobs-list-container .job:hover {
-    transform: scale(1.03);
+    transform: scale(1.1);
 }
 
 .jobs-list-container .open-positions {
@@ -72,6 +73,30 @@
     color: #023047;
 }
 
+.jobs-list-container .refresh-btn {
+    text-decoration: none;
+    border: 1px solid #3273dc;
+    color: #3273dc;
+    padding: 8px 16px;
+    position: relative;
+    display: grid;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 40px;
+
+}
+
+.jobs-list-container .refresh-btn:hover {
+    background: #fff;
+    color: #023047;
+}
+
+.jobs-list-container .refresh {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+}
+
 @media (max-width: 940px) {
     .jobs-list-container .jobs {
         display: grid;
@@ -81,7 +106,7 @@
 
 @media (max-width: 640px) {
     .jobs-list-container .jobs {
-        display: grid;
+        display: inline-block;
         grid-template-columns: 1fr;
         max-width: 400px;
         margin: 0 auto;
