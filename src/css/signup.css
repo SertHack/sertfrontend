@@ -1,16 +1,29 @@
 .signup-box {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
+    margin: auto;
     width: 35%;
-    margin: 30px;
+}
+
+#signup {
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 100px;
 }
 
 .signup-box > * {
     text-align: center;
-    padding: 30px;
+    padding: 10px;
+}
+
+#class-select {
+    width: 100%;
+}
+
+#class-select > * {
+    width: 100%;
+}
+
+.signup-btn {
+    width: 100%;
 }
 
 #signup-form > * {
