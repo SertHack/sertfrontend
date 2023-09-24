@@ -84,7 +84,10 @@ const Profile = () => {
               <h3 className="subtitle" style={{color: 'white', float: 'left', fontSize: '1.5em', fontWeight: 550 }}>
                 Friends: {user.friends.length}
               </h3>
-              <input type="text" style={{ marginLeft: '1.8em', fontSize: '1em', marginTop: '.2em' }} placeholder='Search friends...' />
+              <div>
+                <input type="text" style={{ marginLeft: '1.8em', fontSize: '1em', marginTop: '.2em' }} placeholder='Search friends...' />
+                <button style={{ background: '#121212', border: 'none', fontSize: '1.3em', marginLeft: '-1.5em' , marginTop: '.5em'}}>🔍</button>
+              </div>
             </div>
             <div className='friends' style={{ marginTop: '2em' }}>
               {user.friends.map((username,i) => <Friend username={username} key={i} />)}
