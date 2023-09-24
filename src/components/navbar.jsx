@@ -11,6 +11,7 @@ function Nav() {
                 <Link to = "/">
                     <img class="navbar-item " src={logo} width="100" height="100" ></img>
                 </Link>
+
             </div>
             <Link to="/explore">Explore</Link>
             <Link to="/network">Network</Link>
