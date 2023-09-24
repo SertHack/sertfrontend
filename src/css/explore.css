@@ -1,0 +1,95 @@
+.explore-list-container {
+    max-width: 900px;
+    margin: 20px auto;
+    font-family: "Poppins", sans-serif;
+}
+
+.explore-list-container h2 {
+    font-size: 30px;
+    border-left: 4px solid#3273dc;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.explore-list-container .explore {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+}
+
+.explore-list-container .explore img {
+    width: 60px;
+}
+
+.explore-list-container .explore img {
+    width: 60px;
+}
+
+.explore-list-container .post {
+    box-shadow: 0 4px 24px -8px rgba(255, 255, 255, 0.2);
+    padding: 24px;
+    border-radius: 24px;
+    border-color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transition: all 400ms ease;
+}
+
+.explore-list-container .post:hover {
+    transform: scale(1.1);
+}
+
+.explore-list-container .post-date {
+    position: absolute;
+    top: 40px;
+    right: 24px;
+    color: #1cf138;
+}
+
+.explore-list-container .post {
+    font-size: 20px;
+    padding: 10px 0;
+    margin: 0;
+    color: #023047;
+}
+
+.explore-list-container .refresh-btn {
+    text-decoration: none;
+    border: 1px solid #3273dc;
+    color: #3273dc;
+    padding: 8px 16px;
+    position: relative;
+    display: grid;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 40px;
+
+}
+
+.explore-list-container .refresh-btn:hover {
+    background: #fff;
+    color: #023047;
+}
+
+.explore-list-container .refresh {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+}
+
+@media (max-width: 940px) {
+    .jobs-list-container .jobs {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 640px) {
+    .jobs-list-container .jobs {
+        display: inline-block;
+        grid-template-columns: 1fr;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}

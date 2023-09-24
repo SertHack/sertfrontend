@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom/client';
 
 import Navbar from "../components/navbar.jsx"
 import Footer from "../components/footer"
+import '../css/explore.css'
 
-import usericon from '../Images/SertLogoReduced.svg'
+import usericon from '../Images/Profile.jpeg'
+import postimage from '../Images/latao.jpeg'
 
 function Explore() {
     return (
@@ -21,11 +23,13 @@ function Explore() {
         <div class="explore">
 
             <div class="post">
-                <img src={usericon} alt="Company logo" />
-                <h3 class="User has-text-link">Sameer Chawla</h3>
+                <img src={usericon} alt="User Profile Picture" />
+                <h3 class="User has-text-link">Jai Patel</h3>
+                <img src={postimage} alt="LaTao Hot Pot" />
                 <div class="caption has-text-white">
-                    Responsible for designing, developing, and maintaining software
-                    systems and applications for the company.
+                    I just checked out this amazing restaurant called LaTao Hot Pot
+                    in College Park, MD, right outside the University of Maryland
+                    campus.
                 </div>
                 {/*<a href="#" class="details-btn">More Details</a>*/}
                 <span class="post-date">2:34 PM 09/24/2023</span>
