@@ -21,7 +21,7 @@ function Jobs() {
         <div class="jobs">
 
             <div class="job">
-                <img src={logo} alt="Company logo" />
+                <img src="https://logo.clearbit.com/google.com" alt="Company logo" />
                 <h3 class="job-title has-text-link">STEP Internship</h3>
                 <div class="details has-text-white">
                 Provides interns with the opportunity to complete a challenging
@@ -33,7 +33,7 @@ function Jobs() {
             </div>
 
             <div class="job">
-                <img src={logo} alt="Company logo" />
+                <img src="https://logo.clearbit.com/northropgrumman.com" alt="Company logo" />
                 <h3 class="job-title has-text-link">Software Engineer Internship</h3>
                 <div class="details has-text-white">
                 Designs, develops, documents, tests and debugs applications
@@ -44,7 +44,7 @@ function Jobs() {
             </div>
 
             <div class="job">
-                <img src={logo} alt="Company logo" />
+                <img src="https://logo.clearbit.com/troweprice.com" alt="Company logo" />
                 <h3 class="job-title has-text-link">Financial Analysis and Planning Internship</h3>
                 <div class="details has-text-white">
                     Analyze, forecast, and develop reports of financial and non-financial trends.
@@ -56,7 +56,7 @@ function Jobs() {
             </div>
 
             <div class="job">
-                <img src={logo} alt="Company logo" />
+                <img src="https://logo.clearbit.com/jhuapl.edu" alt="Company logo" />
                 <h3 class="job-title has-text-link">Systems Engineer Internship</h3>
                 <div class="details has-text-white">
                 Help develop and assess requirements, develop architectures, build and
@@ -69,7 +69,7 @@ function Jobs() {
             </div>
 
             <div class="job">
-                <img src={logo} alt="Company logo" />
+                <img src="https://logo.clearbit.com/boozallen.com" alt="Company logo" />
                 <h3 class="job-title has-text-link">Summer Games Internship</h3>
                 <div class="details has-text-white">
                 You’ll be paired with Booz Allen mentors and assigned to a cross-functional team
@@ -82,7 +82,7 @@ function Jobs() {
             </div>
 
             <div class="job">
-                <img src={logo} alt="Company logo" />
+                <img src="https://logo.clearbit.com/ciphertechsolutions.com" alt="logo" />
                 <h3 class="job-title has-text-link">Full-Stack Developer</h3>
                 <div class="details has-text-white">
                 Provide support in the form of desktop application and web development to empower intelligence analysts

@@ -19,6 +19,7 @@
 
 .jobs-list-container .jobs img {
     width: 60px;
+    height: 60px;
 }
 
 .jobs-list-container .job {
