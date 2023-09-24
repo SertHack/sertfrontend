@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
 import Navbar from "../components/navbar.jsx"
 import Footer from "../components/footer"
 
@@ -21,7 +22,7 @@ function Explore() {
 
             <div class="post">
                 <img src={usericon} alt="Company logo" />
-                <h3 class="User has-text-link">Software Engineer</h3>
+                <h3 class="User has-text-link">Sameer Chawla</h3>
                 <div class="caption has-text-white">
                     Responsible for designing, developing, and maintaining software
                     systems and applications for the company.
