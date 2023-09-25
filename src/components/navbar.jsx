@@ -17,7 +17,6 @@ function Nav() {
             <Link to="/network">Sertwork</Link>
             <Link to="/jobs">Jobs</Link>
             <Link to="/profile">Profile</Link>
-            <Link to="/api/logoff">Log Out</Link>
         </div>
     )
 }
